@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int searchInsert(int* nums, int numsSize, int target){
     int i = 0, begin = 0, end = numsSize - 1, key = end / 2;
